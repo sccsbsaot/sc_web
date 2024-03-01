@@ -8,12 +8,12 @@ export interface Props {
 
 const { site } = Astro.props;
 
-const widths = [450, 800];
-const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
+const widths = [450, 450];
+const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 50vw";
 ---
 
 <a class="group aspect-video hover:!text-default" href={site.data.url}>
-  <figure class="relative h-full w-full overflow-hidden">
+  <figure class="relative h-[20vw] w-[20vw] overflow-hidden rounded-full">
     <Image
       class="h-full w-full bg-cover object-cover transition-all duration-300 group-hover:scale-110 group-hover:opacity-20 group-focus:scale-110 group-focus:opacity-20"
       src={site.data.image}
@@ -28,7 +28,7 @@ const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
         <h3 class="text-center font-extrabold uppercase text-xl">
           {site.data.title}
         </h3>
-        <p class="border border-current px-4 py-2">{site.data.url}</p>
+        <p class="px-4 py-2">{site.data.url}</p>
       </div>
     </figcaption>
   </figure>
