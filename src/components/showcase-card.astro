@@ -8,28 +8,35 @@ export interface Props {
 
 const { site } = Astro.props;
 
-const widths = [450, 450];
-const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 50vw";
+const height = "200";
+const width = "200";
 ---
 
-<a class="group aspect-video hover:!text-default" href={site.data.url}>
-  <figure class="relative h-[20vw] w-[20vw] overflow-hidden rounded-full">
+<div class="group aspect-video hover:lg:text-sm hover::text-xs " >
+  <figure class=`relative lg:h-[18vw] lg:w-[18vw] md:h-[22vw] md:w-[22vw] h-[30vw] w-[30vw]  overflow-hidden rounded-full`>
     <Image
       class="h-full w-full bg-cover object-cover transition-all duration-300 group-hover:scale-110 group-hover:opacity-20 group-focus:scale-110 group-focus:opacity-20"
+      inferSize
       src={site.data.image}
-      widths={widths}
-      sizes={sizes}
-      alt={`A screenshot of ${site.data.url}`}
+      alt={`A screenshot of ${site.data.title}`}
     />
     <figcaption class="absolute inset-0">
       <div
-        class="flex h-full flex-col items-center justify-center gap-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-focus:opacity-100"
+        class="flex h-full flex-col items-center justify-center gap-1 opacity-0 transition-all duration-300 group-hover:opacity-100 group-focus:opacity-100"
       >
-        <h3 class="text-center font-extrabold uppercase text-xl">
+        <p class="text-center font-extrabold uppercase smalling  " >
           {site.data.title}
-        </h3>
-        <p class="px-4 py-2">{site.data.url}</p>
+        </p>
+        <p class="px-4 py-2 smalling " >{site.data.url}</p>
       </div>
     </figcaption>
   </figure>
-</a>
+</div>
+
+<style>
+  @media (max-width: 768px) {
+      .smalling {
+        font-size: 0.5rem;
+      }
+  }
+</style>
