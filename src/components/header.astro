@@ -5,9 +5,11 @@ import {Image} from "astro:assets";
 import logo from "~/assets/logo.png";
 import type { NavItem } from "~/types";
 
+const { title } = Astro.props;
+
 const navItems: Array<NavItem> = [
   { title: "Home", url: "/" },
-  { title: "Members", url: "#compatibility" },
+  { title: title.charAt(0).toUpperCase() + title.slice(1), url: title },
   { title: "JOIN US", url: "https://www.linkedin.com/company/sccsbsaot" },
 ];
 ---
