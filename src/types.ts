@@ -5,9 +5,9 @@ export interface CompatibilityItem {
 }
 
 export interface FeatureItem {
-  description: string;
-  icon: string;
   title: string;
+  description: string;
+  image?: string;
 }
 
 export interface FooterLink {
