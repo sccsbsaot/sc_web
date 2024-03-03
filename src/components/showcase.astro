@@ -1,16 +1,11 @@
 ---
-import { getCollection } from "astro:content";
 import ContentSection from "~/components/content-section.astro";
 import ShowcaseCard from "~/components/showcase-card.astro";
 import {Button} from "@nextui-org/react";
+import team from "~/content/team.json";
 
-const featuredSites = await getCollection(
-  "showcase",
-  ({ data }) => "featured" in data,
-);
-const orderedSites = featuredSites.sort(
-  (a, b) => a.data.featured! - b.data.featured!,
-);
+const coreTeam = team.team.slice(0, 8);
+const { hide_button } = Astro.props;
 ---
 
 <ContentSection title="Core Team" id="showcase">
@@ -21,15 +16,17 @@ const orderedSites = featuredSites.sort(
   </Fragment>
   <div class="max-w-6xl space-y-2">
     <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-      {orderedSites.map((site) => <ShowcaseCard site={site} client:visible />)}
+      {coreTeam.map((member) => <ShowcaseCard image={member.image} title={member.title} pos={member.pos}  />)}
     </div>
     <p class="text-right text-sm">
       
     </p>
   </div>
+  {!hide_button && 
   <a href="members">
-  <Button radius="full"  size="lg"  className="bg-gradient-to-br from-indigo-500 via-fuchsia-500 to-pink-500">
-    SEE THE FULL TEAM
-  </Button>
-</a>
+    <Button radius="full"  size="lg"  className="bg-gradient-to-br from-indigo-500 via-fuchsia-500 to-pink-500">
+      SEE THE FULL TEAM
+    </Button>
+  </a>
+}
 </ContentSection>
