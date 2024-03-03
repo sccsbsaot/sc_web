@@ -4,115 +4,148 @@
       "title": "RANGAN CHATTOPADHYAY",
       "image": "src/content/showcase/RANGAN.webp",
       "pos": "CONVENOR",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "ANIRBAN JASH",
       "image": "src/content/showcase/ANIRBAN.webp",
       "pos": "CORE TEAM + PR LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "SOUMYAJIT MONDAL",
       "image": "src/content/showcase/SOUMYAJIT.webp",
       "pos": "CORE TEAM + TECH LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "RAJOPRIYO CHANDA",
       "image": "src/content/showcase/RAJOPRIYO.webp",
       "pos": "CORE TEAM + MARKETING LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "RONIT BANERJEE",
       "image": "src/content/showcase/RONIT.webp",
       "pos": "CORE TEAM + PR CO-LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "ISHANI ROY",
       "image": "src/content/showcase/ISHANI.webp",
       "pos": "CORE TEAM + SOCIAL MEDIA LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "PURBALI SADHUKHAN",
       "image": "src/content/showcase/PURBALI.webp",
       "pos": "CORE TEAM + EVENT MANAGEMENT CO-LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "SNEHADRITA SETH",
       "image": "src/content/showcase/SNEHADRITA.webp",
       "pos": "Core Team",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "SAJILI CHAKRABORTY",
       "image": "src/content/showcase/SAJILI.webp",
       "pos": "CONTENT LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "ANISH KONER",
       "image": "src/content/showcase/ANISH.webp",
       "pos": "EVENT MANAGEMENT LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "RATUL SUR",
       "image": "src/content/showcase/RATUL.webp",
       "pos": "CAMERA & EDITING LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "SNIGDHA KUNDU",
       "image": "src/content/showcase/SNIGDHA.webp",
       "pos": "DESIGNING LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "RUDRADEB SINHA ROY",
       "image": "src/content/showcase/RUDRADEB.webp",
       "pos": "DESIGNING CO-LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "DIGANTA DUTTA",
       "image": "src/content/showcase/DIGANTA.webp",
       "pos": "TREASURER LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "AYON ROY",
       "image": "src/content/showcase/AYON.webp",
       "pos": "VOLUNTEER LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "ANIK CHOWDHURY",
       "image": "src/content/showcase/ANIK.webp",
       "pos": "CONTENT CO-LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "SOUMIK SAMANTA",
       "image": "src/content/showcase/SOUMIK.webp",
       "pos": "TECH CO-LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "ROUNAK SEN",
       "image": "src/content/showcase/ROUNAK.webp",
       "pos": "TECH Co-Lead",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     },
     {
       "title": "BASUDHA DAS",
       "image": "src/content/showcase/BASUDHA.webp",
       "pos": "CAMERA & EDITING CO-LEAD",
-      "url": "url_placeholder"
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
+    },
+    {
+      "title": "ABHIJIT SHAW",
+      "image": "src/content/showcase/ABHIJIT.webp",
+      "pos": "EVENT MANAGEMENT CO-LEAD",
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
+    },
+    {
+      "title": "ROMIT MALAKAR",
+      "image": "src/content/showcase/ROMIT.webp",
+      "pos": "PR CO-LEAD",
+      "linkedInUrl": "url_placeholder",
+      "githubUrl": "url_placeholder"
     }
   ]
 }
