@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "C:/Users/USER/Desktop/sc_web",
+    "baseUrl": "/Users/gautamnag/Desktop/SC/sc_web",
     "paths": {
       "~/*": [
         "src/*"
