@@ -1,47 +1,93 @@
 ---
 import { Icon } from "astro-icon/components";
-// import HeroImage from "~/components/hero-image.astro";
 import type { FooterLink } from "~/types";
+
+const Mlinks: Array<FooterLink> = [
+  {
+    url: "mailto:sccsbsaot@gmail.com",
+    description: "Contact Us at:",
+  },
+];
 
 const links: Array<FooterLink> = [
   {
-    url: "https://astro.build/",
-    description: "Astro's official website",
-    icon: "mdi:home",
-  },
-  {
-    url: "https://github.com/mhyfritz/astro-landing-page",
-    description: "View source on GitHub",
-    icon: "fa-brands:github-alt",
-  },
-  {
-    url: "https://astro.build/chat",
-    description: "Astro on Discord",
-    icon: "fa-brands:discord",
-  },
-  {
-    url: "https://twitter.com/astrodotbuild",
-    description: "Astro on Twitter",
+    url: "https://twitter.com/sccsbs",
+    description: "SC CSBS on Twitter",
     icon: "fa-brands:twitter",
+    color: "#1DA1F2",
+  },
+];
+
+const socialLinks: Array<FooterLink> = [
+  {
+    url: "https://www.facebook.com/profile.php?id=100090904104316&mibextid=ZbWKwL",
+    description: "Follow us on Facebook",
+    icon: "fa-brands:facebook",
+    color: "#1877f2",
+  },
+  {
+    url: "https://www.instagram.com/sccsbsaot", 
+    description: "Follow us on Instagram",
+    icon: "fa-brands:instagram",
+    color: "#e4405f",
+  },
+  {
+    url: "https://www.linkedin.com/company/sccsbsaot/", 
+    description: "Connect with us on LinkedIn",
+    icon: "fa-brands:linkedin",
+     color: "#0077b5",
   },
 ];
 ---
 
-<footer class="relative flex h-64 items-center justify-center">
+<div class="flex flex-col items-center justify-center my-8 mx-auto">
+  <p class="text-gray-500">
+    Contact us at: 
+   <a class="text-primary" href="mailto:sccsbsaot@gmail.com">sccsbsaot@gmail.com</a>
+  </p>
+</div>
 
-  <ul class="relative grid grid-cols-2 gap-4 sm:grid-cols-4">
+
+
+
+<footer class="relative flex h-64 items-center justify-center md:flex-row flex-col">
+
+  <div class="flex items-center justify-center md:border-r border-gray-300 pr-14"> 
+    <p class="text-gray-500">
+      &copy;SC CSBS<br />
+      Created with <span class="text-red-500">❤️</span> by <span class="text-primary">SC CSBS</span>
+    </p>
+</div>
+
+  <ul class="relative grid grid-cols-2 gap-6 md:grid-cols-4 p-0 md:pl-20 mt-10 md:mt-0">
     {
       links.map((link) => (
         <li>
           <a
             class="flex size-16 items-center justify-center rounded-full border-2 border-current p-4"
             href={link.url}
+             style={{ backgroundColor: link.color }}
           >
             <span class="sr-only">{link.description}</span>
-            <Icon class="size-full" name={link.icon} />
+            <Icon class="size-full" name={link.icon} style={{ color: "#fff" }} />
           </a>
         </li>
       ))
     }
-  </ul>
+
+    {
+      socialLinks.map((link) => (
+        <li>
+          <a
+            class="flex size-16 items-center justify-center rounded-full border-2 border-current p-4"
+            href={link.url}
+            style={{ backgroundColor: link.color }}
+          >
+            <span class="sr-only">{link.description}</span>
+            <Icon class="size-full" name={link.icon} style={{ color: "#fff" }}  />
+          </a>
+        </li>
+      ))
+    }
+</ul>
 </footer>
