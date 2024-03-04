@@ -5,7 +5,8 @@ import Header from "~/components/header.astro";
 import ContentSection from "~/components/content-section.astro";
 import MemberCard from "~/components/member_card.tsx";
 import "~/styles/index.css";
-import team from "~/content/team.json";
+import team from "~/content/members/team.json";
+import members from "~/content/members/data.json";
 
 const { generator, site } = Astro;
 const image = new URL("social.jpg", site);
@@ -81,10 +82,21 @@ interface RootObject {
   info: Info;
 }
 
+interface Member {
+  title: string;
+  github: string;
+  linkedIn: string;
+  image: string;
+}
 
-  const members:RootObject = await fetch(
-    "https://randomuser.me/api/?results=80"
-  ).then((res) => res.json());
+interface Data {
+  members: Member[];
+}
+
+  // const members:RootObject = await fetch(
+  //   "https://randomuser.me/api/?results=80"
+  // ).then((res) => res.json());
+
 
 ---
 
@@ -146,6 +158,8 @@ interface RootObject {
               username={member.title}
               img={member.image}
               pos={member.pos}
+              gitHub={member.githubUrl}
+              linkedIn={member.linkedInUrl}
               type="team"
               client:idle
               />
@@ -159,12 +173,13 @@ interface RootObject {
         <br/>
       <div class="flex flex-wrap justify-center items-center">
         
-        {members.results.map((member) => (
+        {members.members.map((member) => (
           <MemberCard
-            username={member.login.username}
-            img={member.picture.medium}
+            username={member.title}
+            img={member.image}
+            linkedIn={member.linkedIn}
+            gitHub={member.github}
             type="member"
-            pos={member.email}
             client:idle
             />
         ))}
