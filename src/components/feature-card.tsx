@@ -11,6 +11,7 @@ export default function NextCard({ title, description, image }: FeatureItem) {
         <div className="h-10vh flex flex-col items-center justify-center px-3 py-2">
           <Image
               isBlurred
+              loading="lazy"
               alt="Card background"
               className="object-cover rounded-4 rounded-full lg:h-[18vw] lg:w-[18vw] md:h-[22vw] md:w-[22vw] h-[30vw] w-[30vw]"  
               src={image}
