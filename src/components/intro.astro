@@ -1,17 +1,17 @@
 ---
-import { Icon } from "astro-icon/components";
+import {Image} from "astro:assets";
+import Logo from "../assets/logo.png";
 import ContentSection from "~/components/content-section.astro";
 ---
-
-<ContentSection title="Just ship less" id="intro">
-  <Icon slot="eyebrow" name="logomark" class="size-32" />
+<div class="flex justify-center">
+  <Image src={Logo} width={80} height={80} alt="Logo" />
+</div>
+<ContentSection title="IEI Students' Chapter CSBS " id="intro">
   <Fragment slot="lead">
-    Astro is a new kind of site builder for the
-    <span class="text-primary">modern</span> web.
-    <span class="text-primary">Lightning-fast</span>
-    performance meets <span class="text-primary">powerful</span> developer experience.
+      <span class="text-primary">welcomes</span> you all  to the launch of our exciting new chapter which is designed to be a hub of  
+    <span class="text-primary">creativity, collaboration </span><span class="text-primary">and lifelong learning.</span>
   </Fragment>
-  <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+  <!-- <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
     <a
       href="https://docs.astro.build/"
       class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
@@ -26,5 +26,5 @@ import ContentSection from "~/components/content-section.astro";
       <Icon name="mdi:rocket" class="size-8" />
       <span>Try it out</span>
     </a>
-  </div>
+  </div> -->
 </ContentSection>
