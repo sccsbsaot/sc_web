@@ -9,9 +9,18 @@ import team from "~/content/members/team.json";
 import members from "~/content/members/data.json";
 
 const { generator, site } = Astro;
-const image = new URL("social.jpg", site);
+// const image = new URL("social.jpg", site);
 const description =
-  "Build fast websites, faster. Astro is a new kind of site builder for the modern web. Lightning-fast performance meets powerful developer experience.";
+  `SC-CSBS  welcomes you all  to the launch of our exciting new chapter which is designed to be a hub of creativity, collaboration and lifelong learning. 
+  👉Join us and discover your full potential!
+  In academic pursuit we thrive
+  A student chapter that's alive
+  CSBS is our foundation
+  A community of inspiration.
+  Our passion is our guiding🌟 light
+  As we🫂 strive with all our might
+  To conquer academic heights
+  With CSBS our 🦾future's bright.`;
 
 interface Result {
   gender: string;
@@ -108,14 +117,14 @@ interface Data {
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="generator" content={generator} />
 
-    <title>Astro Landing Page</title>
+    <title>IEI Students' Chapter CSBS</title>
     <meta name="description" content={description} />
 
     <!-- social media -->
     <meta property="og:title" content="Astro" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
+    <!-- <meta property="og:image" content={image} /> -->
     <meta property="og:url" content={site} />
     <meta name="twitter:card" content="summary_large_image" />
 
