@@ -16,7 +16,7 @@ const { hide_button } = Astro.props;
   </Fragment>
   <div class="max-w-6xl space-y-2">
     <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-      {coreTeam.map((member) => <ShowcaseCard image={member.image} title={member.title} pos={member.pos}  />)}
+      {coreTeam.map((member) => <a href="/members" ><ShowcaseCard image={member.image} title={member.title} pos={member.pos}  /> </a>)}
     </div>
     <p class="text-right text-sm">
       

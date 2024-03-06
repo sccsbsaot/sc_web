@@ -1,16 +1,19 @@
-// import { defineCollection, z } from "astro:content";
+import { defineCollection, z } from "astro:content";
 
-// const team = defineCollection({
-//   type: "data",
-//   schema: () =>
-//     z.object({
-//       title: z.string().min(1),
-//       image: z.string(),
-//       url: z.string().optional(),
-//       pos: z.string().optional(),
-//     }),
-// });
+const events = defineCollection({
+  type: "data",
+  schema: () =>
+    z.object({
+      title: z.string(),
+      description: z.string(),
+      data: z.array(
+        z.object({
+          url: z.string(),
+        })
+      ),
+    }),
+});
 
-// export const collections = {
-//   team,
-// };
+export const collections = {
+  events,
+};

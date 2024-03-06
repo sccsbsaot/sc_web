@@ -6,7 +6,6 @@ export interface Props {
 }
 
 const { image, title, pos }: Props = Astro.props;
-
 const height = "200";
 const width = "200";
 ---
@@ -15,7 +14,6 @@ const width = "200";
   <figure class=`relative lg:h-[18vw] lg:w-[18vw] md:h-[22vw] md:w-[22vw] h-[30vw] w-[30vw]  overflow-hidden rounded-full`>
     <img
       class="h-full w-full bg-cover object-cover transition-all duration-300 group-hover:scale-110 group-hover:opacity-20 group-focus:scale-110 group-focus:opacity-20"
-      inferSize
       src={image}
       alt={`A screenshot of ${title}`}
     />
