@@ -36,7 +36,6 @@ export default function EventsCard({
               infiniteLoop
               showThumbs={false}
               emulateTouch
-              centerMode
               autoPlay
               
             >
