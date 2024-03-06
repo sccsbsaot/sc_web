@@ -9,7 +9,7 @@ import Splash from "~/components/splash.astro";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
-// const image = new URL("social.jpg", site);
+const image = new URL("logo.ico", site);
 const description =
   `SC-CSBS  welcomes you all  to the launch of our exciting new chapter which is designed to be a hub of creativity, collaboration and lifelong learning. 
   👉Join us and discover your full potential!
@@ -28,7 +28,7 @@ const description =
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/logo.ico" type="image/svg+xml" />
     <meta name="generator" content={generator} />
 
     <title>IEI Students' Chapter CSBS</title>
@@ -38,7 +38,7 @@ const description =
     <meta property="og:title" content="Astro" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content={description} />
-    <!-- <meta property="og:image" content={image} /> -->
+    <meta property="og:image" content={image} />
     <meta property="og:url" content={site} />
     <meta name="twitter:card" content="summary_large_image" />
 

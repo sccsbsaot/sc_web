@@ -1,24 +1,21 @@
 ---
-import ContentSection from "~/components/content-section.astro";
+import { getCollection  } from 'astro:content';
 import EventsCard from "~/components/events-card.tsx";
+
+const events = await getCollection('events');
+
 ---
 <div id="events">
   <div class="max-w-6xl mx-auto"> 
-    <div class="mb-6"> 
-      <EventsCard
-        client:visible
-        title="Mogojastro"
-        description="The chapter's inaugural event, MOGOJASTRO, garnered immense success with over 500 registrations, marking a significant milestone in CSBS's journey."
-        image="/src/assets/Mogojastro.jpg"
-      />
-    </div>
-    <div class="mb-6"> 
-      <EventsCard
-        client:visible
-        title="UXopia"
-        description="SC-CSBS is back in action and ready to hit your screens ,once again 🚀 . Brace yourselves for an electrifying UI/UX event that's set to dazzle and amaze "
-        image="/src/assets/Uxopia.png"
-      />
-    </div>
+    {events.map((event) => (
+      <div class="mb-6"> 
+        <EventsCard
+          images={event.data.data}
+          title={event.data.title}
+          description={event.data.description}
+          client:visible
+        />
+      </div>
+  ))}
   </div>
 </div>

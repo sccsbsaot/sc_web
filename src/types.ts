@@ -21,9 +21,4 @@ export interface NavItem {
   url: string;
 }
 
-export interface Event {
-  title: string;
-  description: string;
-  image: string;
-}
 
