@@ -20,3 +20,10 @@ export interface NavItem {
   title: string;
   url: string;
 }
+
+export interface Event {
+  title: string;
+  description: string;
+  image: string;
+}
+
