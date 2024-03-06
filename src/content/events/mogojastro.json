@@ -2,14 +2,24 @@
   "title": "Mogojastro",
   "description": "The chapter's inaugural event, MOGOJASTRO, garnered immense success with over 500 registrations, marking a significant milestone in CSBS's journey.",
   "data": [
-    {
-      "url": "https://www.placeholder.com/720x480.png"
-    },
-    {
-      "url": "https://www.placeholder.com/720x480.png"
-    },
-    {
-      "url": "https://www.placeholder.com/720x480.png"
-    }
+    { "url": "mogojastro/IMG-20240304-WA0022.webp" },
+    { "url": "mogojastro/IMG-20240304-WA0023.webp" },
+    { "url": "mogojastro/IMG-20240304-WA0024.webp" },
+    { "url": "mogojastro/IMG-20240304-WA0025.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0004.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0005.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0006.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0007.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0008.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0009.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0010.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0011.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0012.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0013.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0014.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0015.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0016.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0017.webp" },
+    { "url": "mogojastro/IMG-20240306-WA0018.webp" }
   ]
 }
