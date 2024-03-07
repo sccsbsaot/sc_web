@@ -3,8 +3,8 @@ import type { FeatureItem } from "~/types";
 
 export default function NextCard({ title, description, image }: FeatureItem) {
   return (
-    <li className="">
-      <Card className="py-10 hover:rotate-card  ">
+    <>
+      <Card className="py-10 hover:rotate-card  place-self-strech ">
         {/* <div className="flex align-items-center justify-center relative lg:h-[18vw] lg:w-[18vw] md:h-[22vw] md:w-[22vw] h-[30vw] w-[30vw]  overflow-hidden rounded-full mx-12"> */}
           
         {/* </div> */}
@@ -21,6 +21,6 @@ export default function NextCard({ title, description, image }: FeatureItem) {
           <CardBody className="text-center text-offset text-sm">{description}</CardBody>
         </div>
       </Card>
-    </li>
+    </>
   );
 }
