@@ -17,7 +17,7 @@ export default function NextCard({ title, description, image }: FeatureItem) {
               src={image}
               width={270}
           />
-          <CardHeader className="text-primary text-center font-extrabold text-xl">{title}</CardHeader>
+          <CardHeader className="text-primary text-center font-extrabold text-lg justify-center">{title}</CardHeader>
           <CardBody className="text-center text-offset text-sm">{description}</CardBody>
         </div>
       </Card>
