@@ -78,6 +78,7 @@ export default function MemberCard({
                   <div className="h-2" />
                   {pos && <h2 className="text-center">{pos}</h2>}
                   <div className="flex gap-10 p-2">
+                    {gitHub && 
                     <a href={gitHub} target="_blank">
                       <img
                         src={Github.src}
@@ -86,14 +87,18 @@ export default function MemberCard({
                         height={50}
                       />
                     </a>
+                    }
+                    {linkedIn &&
                     <a href={linkedIn} target="_blank">
-                      <img
-                        src={LinkedIn.src}
-                        alt="LinkedIn"
-                        width={50}
-                        height={50}
-                      />
-                    </a>
+                    <img
+                      src={LinkedIn.src}
+                      alt="LinkedIn"
+                      width={50}
+                      height={50}
+                    />
+                  </a>
+                    }
+                    
                   </div>
                 </div>
               </ModalBody>

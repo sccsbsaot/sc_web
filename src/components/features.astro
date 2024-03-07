@@ -7,17 +7,17 @@ const features: Array<FeatureItem> = [
   {
     title: 'Prof. Suman Bhattacharya',
     description:"CSBS HOD",
-    image: "/teachers/SNBSir.webp",
+    image: "https://res.cloudinary.com/dobf4epbw/image/upload/v1709828052/beeqwsteiokv9ywwcnry.webp",
   },
   {
     title: "Dr. Nayan Ranjan Das",
     description:"Faculty Advisor",
-      image: "/teachers/NRDSir.webp",
+      image: "https://res.cloudinary.com/dobf4epbw/image/upload/v1709828048/be62bqrezt6w0iodyf3z.webp",
   },
   {
     title: "Prof. Suman Goswami",
     description:"Co-Advisor and Financial Associate.",
-      image: "/teachers/SGSir.webp",
+      image: "https://res.cloudinary.com/dobf4epbw/image/upload/v1709828050/fklis7cd8lvfhqd0ql3y.webp",
   }
 ];
 ---
@@ -25,7 +25,7 @@ const features: Array<FeatureItem> = [
 
   <ContentSection title="Teachers" id="features" >
 
-    <ul class="grid max-w-6xl max-h-6xl grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3 ">
+    <div class="grid max-w-6xl max-h-6xl grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3 ">
       {
         features.map(({ title, description, image }) => (
           <NextCard 
@@ -36,5 +36,5 @@ const features: Array<FeatureItem> = [
            />
         ))
       }
-    </ul>
+    </div>
 </ContentSection>
