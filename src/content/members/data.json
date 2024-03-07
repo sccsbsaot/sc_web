@@ -180,7 +180,7 @@
       "title": "PAPRI MITRA",
       "github": "https://github.com/PapriMitra",
       "linkedIn": "https://www.linkedin.com/in/papri-mitra-236755253",
-      "image": "https://media.licdn.com/dms/image/D4D03AQHNlUONg12Y9A/profile-displayphoto-shrink_800_800/0/1680446119910?e=1715212800&v=beta&t=iH4gcavjO7TGJ945qnq0Dz6ONj9EMyBFisUd6JsaXj0"
+      "image": "/images/papri.jpeg"
     },
     {
       "title": "RIMPA ADHIKARY",
@@ -218,32 +218,35 @@
       "linkedIn": "https://www.linkedin.com/in/leoxakash/",
       "image": "https://media.licdn.com/dms/image/D4D03AQGMQzRiPheB8g/profile-displayphoto-shrink_800_800/0/1701615626313?e=1715212800&v=beta&t=mLgixsCP-kGhrM5Hhx5kiWDEFJZDZhkKHkabDRroxTs"
     },
-    { "title": "TAMAL GHOSH", "github": "", "linkedIn": "", "image": "/images/tamal.png" },
-    { "title": "SUJAL DAS", "github": "", "linkedIn": "", "image": "https://media.licdn.com/dms/image/D5603AQHC08sPbFfUbA/profile-displayphoto-shrink_800_800/0/1671298944365?e=1715212800&v=beta&t=b6UHzHOy8FtcOrG6Os_BH6PShGfzccQhncwZ5EZrw_o" },
-    { "title": "ABHISHEK CHATTOPADHYAY", "github": "", "linkedIn": "", "image": "https://img.freepik.com/premium-photo/young-asian-indian-student-with-glasses-backpack-holds-book-shows-thumbs-up_928503-89.jpg" },
-    { "title": "SOHANI CHAKRABORTY", "github": "", "linkedIn": "", "image": "https://www.avanse.com/viewPagesAssets/img/study-in-india-banner.webp" },
-    { "title": "RUDRADEB SINHA ROY", "github": "", "linkedIn": "", "image": "https://preview.redd.it/omen-icon-fanart-v0-p3hdy2ic0hlb1.png?width=3500&format=png&auto=webp&s=e1b170b1113b4e78dcf86a696d201d50600d50ce" },
-    { "title": "BARANALE DEB", "github": "", "linkedIn": "", "image": "https://pbs.twimg.com/media/EqLr5uvUwAIgBpY?format=jpg&name=4096x4096" },
-    
-    
     { "title": "PRAGATI BISWAS", "github": "", "linkedIn": "", "image": "/images/pb.png" },
     { "title": "DEBAJYOTI ADHIKARY", "github": "", "linkedIn": "", "image": "/images/debada.png" },
-    { "title": "ARANYA BASU", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/18" },
+    { "title": "TAMAL GHOSH", "github": "", "linkedIn": "", "image": "/images/tamal.png" },
+    { "title": "SUJAL DAS", "github": "", "linkedIn": "", "image": "https://media.licdn.com/dms/image/D5603AQHC08sPbFfUbA/profile-displayphoto-shrink_800_800/0/1671298944365?e=1715212800&v=beta&t=b6UHzHOy8FtcOrG6Os_BH6PShGfzccQhncwZ5EZrw_o" },
+    { "title": "UMER WAQAR", "github": "", "linkedIn": "", "image": "/images/umer.jpg" },
+    
+    
+
+    { "title": "ARANYA BASU", "github": "", "linkedIn": "", "image": "/images/ara.png" },
     {
       "title": "SWARNABHA BOSE",
       "github": "https://github.com/boseswarnabha",
       "linkedIn": "https://www.linkedin.com/in/swarnabha-bose-859424270/",
-      "image": "https://avatar.iran.liara.run/public/29"
+      "image": "https://media.licdn.com/dms/image/D5603AQHnVmUPf_miyw/profile-displayphoto-shrink_800_800/0/1709820394726?e=1715212800&v=beta&t=f6E3Tfi3yqa8lAkv6rIF-fPQ1OEFvMvaUbFaxS4aIA0"
     },
-    { "title": "SANTOSH MAITY", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/46" },
-   { "title": "RAKESH MAJUMDER", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/37" },
+    { "title": "SANTOSH MAITY", "github": "", "linkedIn": "", "image": "/images/Santosh.jpeg" },
+    { "title": "ABHISHEK CHATTOPADHYAY", "github": "", "linkedIn": "", "image": "https://img.freepik.com/premium-photo/young-asian-indian-student-with-glasses-backpack-holds-book-shows-thumbs-up_928503-89.jpg" },
+    { "title": "SOHANI CHAKRABORTY", "github": "", "linkedIn": "", "image": "https://www.avanse.com/viewPagesAssets/img/study-in-india-banner.webp" },
+    { "title": "RUDRADEB SINHA ROY", "github": "", "linkedIn": "", "image": "https://preview.redd.it/omen-icon-fanart-v0-p3hdy2ic0hlb1.png?width=3500&format=png&auto=webp&s=e1b170b1113b4e78dcf86a696d201d50600d50ce" },
+    { "title": "BARANALE DEB", "github": "", "linkedIn": "", "image": "https://pbs.twimg.com/media/EqLr5uvUwAIgBpY?format=jpg&name=4096x4096" },
+  
+   
     { "title": "ARYA BANDYOPADHYAY", "github": "", "linkedIn": "", "image": "https://parspng.com/wp-content/uploads/2022/12/studentpng.parspng.com-9.png" },
-    { "title": "DIPTANGSHU CHOWDHURY", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/27" },
+   
     { "title": "SAKSHI KAHAR", "github": "", "linkedIn": "", "image": "https://media.istockphoto.com/id/1369754239/photo/university-student-in-white-background-stock-photo.jpg?s=612x612&w=0&k=20&c=LjFVDfjusWBjYTNliHV9DyXfApPGc8DmgBGEtfVgQ0Q=" },
     { "title": "SOUMIK DUTTA", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/42" },
-    { "title": "UMER WAQAR", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/17" },
+    { "title": "RAKESH MAJUMDER", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/37" },
     { "title": "SUMIT PAUL", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/47" },
-   
+    { "title": "DIPTANGSHU CHOWDHURY", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/27" },
     { "title": "AVINABA DAS MODAK", "github": "", "linkedIn": "", "image": "https://avatar.iran.liara.run/public/15" },
 
        
