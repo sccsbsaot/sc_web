@@ -3,11 +3,17 @@ import ContentSection from "~/components/content-section.astro";
 import ShowcaseCard from "~/components/showcase-card.astro";
 import {Button} from "@nextui-org/react";
 import team from "~/content/members/team.json";
+import past from "~/content/members/past.json";
 
-const coreTeam = team.team.slice(0, 8);
+const coreTeam = team.team.slice(0, 9);
+const pastConvenor = past.members.slice(0,1);
 const { hide_button } = Astro.props;
----
 
+
+import MemberCard from "./member_card";
+import { getCollection } from "astro:content";
+---
+<>
 <ContentSection title="Core Team" id="showcase">
   <Fragment slot="lead">
     SC CSBS is <span class="text-primary">AWESOME</span>.{" "}
@@ -15,12 +21,9 @@ const { hide_button } = Astro.props;
     <span class="text-primary">inspired</span>.
   </Fragment>
   <div class="max-w-6xl space-y-2">
-    <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+    <div class="justify-center items-center align-middle gap-4 flex flex-wrap">
       {coreTeam.map((member) => <a href="/members" ><ShowcaseCard image={member.image} title={member.title} pos={member.pos}  /> </a>)}
     </div>
-    <p class="text-right text-sm">
-      
-    </p>
   </div>
   {!hide_button && 
   <a href="members">
@@ -28,5 +31,15 @@ const { hide_button } = Astro.props;
       SEE THE FULL TEAM
     </Button>
   </a>
-}
+
+  }
 </ContentSection>
+<div class="py-5" />
+<ContentSection title="Past Convenors" id="past convenors">
+<div class="max-w-6xl space-y-2">
+    <div class="justify-center items-center align-middle gap-4 flex flex-wrap">
+      {pastConvenor.map((member) => <a href="/members" ><ShowcaseCard image={member.image} title={member.title} pos={member.pos}  /> </a>)}
+    </div>
+  </div>
+</ContentSection>
+</m>
