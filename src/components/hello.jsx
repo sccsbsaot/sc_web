@@ -10,7 +10,7 @@ import {
   Input,
 } from "@nextui-org/react";
 
-function MyComponent() {
+function Hello() {  // Updated function name to hello
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -153,4 +153,4 @@ function MyComponent() {
   );
 }
 
-export default MyComponent;
+export default Hello;  // Updated export to hello

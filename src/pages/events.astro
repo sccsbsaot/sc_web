@@ -4,7 +4,7 @@ import Footer from "~/components/footer.astro";
 import Header from "~/components/header.astro";
 import ContentSection from "~/components/content-section.astro";
 import Event from "~/components/event.astro";
-import MyComponent from "~/components/hello";
+import Hello from "~/components/hello.jsx";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
@@ -21,24 +21,7 @@ const description =
   To conquer academic heights
   With CSBS our 🦾future's bright.`;
 
-const events = [
-  {
-    title: "Mogojastro",
-    description: "The chapter's inaugural event, MOGOJASTRO, garnered immense success with over 500 registrations, marking a significant milestone in CSBS's journey.",
-    images: [
-      { url: "https://res.cloudinary.com/dobf4epbw/image/upload/v1709829150/ebpyai9qezg6sm6epnol.png" },
-      { url: "https://res.cloudinary.com/dobf4epbw/image/upload/v1709828031/Mogojastro/xn1nqieeyuqyepjp4blc.webp" },
-      // Add more images as needed
-    ]
-  },
-  {
-    title: "UXopia",
-    description: "SC-CSBS is back in action and ready to hit your screens, once again 🚀. Brace yourselves for an electrifying UI/UX event that's set to dazzle and amaze.",
-    images: [
-      { url: "/Uxopia.png" }
-    ]
-  } 
-];
+
 ---
 
 <!doctype html>
@@ -90,7 +73,7 @@ const events = [
   <Header title="members" />
     <div class="space-y-24 px-8 py-32">
       <ContentSection title="Events" id="events" />
-      <MyComponent 
+      <Hello
         client:load
       />
       <Event />
