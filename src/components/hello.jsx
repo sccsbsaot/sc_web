@@ -183,14 +183,14 @@ function Hello({
 								<div className="justify-items-center align-middle flex flex-col gap-5 pb-5">
 									<a href={pptlink} target="_blank" rel="noreferrer">
 										<Button className="w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105">
-											PPT 🖼️📊
+											Ready for the event? Click here! 🚀
 										</Button>
 									</a>
-									<a href={formlink} target="_blank" rel="noreferrer">
+									{/* <a href={formlink} target="_blank" rel="noreferrer">
 										<Button className="w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105">
 											Form 📨📫
 										</Button>
-									</a>
+									</a> */}
 								</div>
 							) : (
 								<div className="justify-items-center align-middle flex flex-col gap-5 pb-5">
