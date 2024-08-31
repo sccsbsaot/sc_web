@@ -4,24 +4,21 @@ import Footer from "~/components/footer.astro";
 import Header from "~/components/header.astro";
 import ContentSection from "~/components/content-section.astro";
 import Event from "~/components/event.astro";
-import Hello from "~/components/hello.jsx";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
 const image = new URL("logo.ico", site);
 const description =
-  `SC-CSBS welcomes you all to the launch of our exciting new chapter which is designed to be a hub of creativity, collaboration and lifelong learning. 
+  `SC-CSBS  welcomes you all  to the launch of our exciting new chapter which is designed to be a hub of creativity, collaboration and lifelong learning. 
   👉Join us and discover your full potential!
   In academic pursuit we thrive
   A student chapter that's alive
   CSBS is our foundation
   A community of inspiration.
-  Our passion is our guiding🌟 light  
+  Our passion is our guiding🌟 light
   As we🫂 strive with all our might
   To conquer academic heights
   With CSBS our 🦾future's bright.`;
-
-
 ---
 
 <!doctype html>
@@ -72,13 +69,8 @@ const description =
   >
   <Header title="members" />
     <div class="space-y-24 px-8 py-32">
-      <ContentSection title="Events" id="events" />
-      <Hello
-        client:load
-      />
+      <ContentSection title="Events"id="events" />
       <Event />
       <Footer />
-      
-    </div>
   </body>
 </html>
