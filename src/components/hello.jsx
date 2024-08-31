@@ -85,7 +85,6 @@ function Hello({
         setPptLink("");
         setFormLink("");
 		setPassword("");
-		setErrorMessage("");
     };
 
 	return (
