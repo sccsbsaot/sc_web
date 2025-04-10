@@ -8,7 +8,7 @@ import MemberCard from "~/components/member_card.tsx";
 import "~/styles/index.css";
 import team from "~/content/members/team.json";
 import members from "~/content/members/data.json";
-// import pastMembers from "~/content/members/past.json";
+import pastMembers from "~/content/members/past.json";
 
 const { generator, site } = Astro;
 const image = new URL("logo.ico", site);
@@ -127,7 +127,7 @@ interface Data {
             />
         ))}
       </div>
-      <!-- <div class="space-t-10  pt-10 ">
+      <div class="space-t-10  pt-10 ">
         <ContentSection
         title="Past Members"
         id="past members"
@@ -145,7 +145,7 @@ interface Data {
             client:idle
             />
         ))}
-      </div> -->
+      </div> 
     </div> 
     <Footer />
   </body>

@@ -1,9 +1,9 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const { nextui } = require("@nextui-org/react");
+const { heroui } = require("@heroui/react");
 
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,svelte,ts,tsx,vue}",
-  "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"],
+  "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -30,5 +30,5 @@ module.exports = {
     fontSize: false,
   },
   darkMode: "class",
-  plugins: [require("tailwindcss-fluid-type"), nextui()],
+  plugins: [require("tailwindcss-fluid-type"), heroui()],
 };

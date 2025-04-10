@@ -28,7 +28,7 @@
   "dependencies": {
     "@astrojs/react": "^3.0.10",
     "@fontsource-variable/inter": "^5.0.16",
-    "@nextui-org/react": "^2.2.9",
+    "@heroui/react": "2.7.6",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "framer-motion": "^11.0.8",

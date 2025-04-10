@@ -1,103 +1,76 @@
 {
   "team": [
     {
-      "title": "ISHANI ROY",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820574/Members/t95otptonayflerbrp85.webp",
-      "pos": "CONVENOR",
-      "linkedIn": "https:/www.linkedin.com/in/ishaniroy12",
-      "github": "https:/github.com/ishaniroy12"
-    },
-    {
-      "title": "SOUMYAJIT MONDAL",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820577/Members/z0i8g7dsglfrrbhpqspr.webp",
-      "pos": "CORE TEAM + PR LEAD",
-      "linkedIn": "https:/www.linkedin.com/in/soumyajit-mondal2825/",
-      "github": "https:/github.com/Soumyajit2825"
-    },
-    {
-      "title": "SOHAM MUKHERJEE",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709825474/Members/jktnuze0e1xicup6cejt.jpg",
-      "pos": "CORE TEAM + MARKETING LEAD",
-      "linkedIn": "https://www.linkedin.com/in/soham-mukherjee-78223a270",
-      "github": "https://github.com/sohamMKRG"
-    },
-    {
-      "title": "DEBALINA DAS",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709829299/Members/n6fdhgipn7jzeazs30bh.jpg",
-      "pos": "MARKETING CO-LEAD",
-      "linkedIn": "https://www.linkedin.com/in/debalina-das-6b574727a/",
-      "github": "https://github.com/debalinadas05"
-    },
-    {
-      "title": "CHOUDHURY MEHBUB ALAM",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709826507/Members/kuk5a7yraguwbhqarmmm.jpg",
-      "pos": "SOCIAL MEDIA CO-LEAD",
-      "linkedIn": "https://www.linkedin.com/in/leoxakash/",
-      "github": "https://github.com/LeoAkash"
-    },
-    {
-      "title": "RAJPRATIM DEY",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709824918/Members/h8ldvxrhovxhg7lc9cx4.jpg",
-      "pos": "CORE TEAM + VOULENTEER LEAD",
-      "linkedIn": "https://www.linkedin.com/in/rajpratim-dey-5290b52b3",
-      "github": "https://github.com/Rajpratim-Dey-07"
-    },
-    {
-      "title": "ANIK CHOWDHURY",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820572/Members/j9ftwpw44ruzdpmljyz3.webp",
-      "pos": "CORE TEAM + CONTENT LEAD",
-      "linkedIn": "https:/www.linkedin.com/in/anik-c-16aa2123a/",
-      "github": "https:/github.com/anik-chowdhury-002"
-    },
-    {
-      "title": "ARITRA ADAK",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820573/Members/pmg0iparmfuhz1socsmd.jpg",
-      "pos": "CORE TEAM + CAMERA & EDITING LEAD",
-      "linkedIn": "https://www.linkedin.com/in/aritra-adak-a55686275",
-      "github": "https://github.com/ari20045"
-    },
-    {
-      "title": "ROUNAK SEN",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820576/Members/gadbxeg1b8wbxhrx3c6m.webp",
-      "pos": "CORE TEAM + TECH Lead",
-      "linkedIn": "https:/www.linkedin.com/in/rounak-sen/",
-      "github": "https:/github.com/rony0000013"
-    },
-    {
-      "title": "SNIGDHA KUNDU",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820576/Members/v7gdou8gnrw6oxk8gwk7.webp",
-      "pos": "CORE TEAM + DESIGNING LEAD",
-      "linkedIn": "https:/www.linkedin.com/in/snigdha-kundu-2b4862254",
-      "github": "https:/github.com/sage2002"
-    },
-    {
-      "title": "ANISH KONER",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709821778/Members/y2eiie9n9r70whkizxku.jpg",
-      "pos": "CORE TEAM + EVENT MANAGEMENT LEAD",
-      "linkedIn": "https:/www.linkedin.com/in/anish-koner-322974248",
-      "github": "https:/github.com/anishrocco"
-    },
-    {
-      "title": "PURBALI SADHUKHAN",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820571/Members/szwssbvcuw67jp8isdic.webp",
-      "pos": "SOCIAL MEDIA LEAD",
-      "linkedIn": "https:/www.linkedin.com/in/purbali-sadhukhan-30591a235",
-      "github": "http:/github.com/diyaaPurbali"
-    },
-    
-    {
       "title": "UMER WAQAR",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709827505/Members/ltrrvsdat7lhzsqfo5cd.webp",
-      "pos": "PR CO-LEAD",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1717002435/Members/ltrrvsdat7lhzsqfo5cd.webp",
+      "pos": "CONVENOR",
       "linkedIn": "https://www.linkedin.com/in/umer-waqar-23b2a92b9",
       "github": ""
     },
     {
-      "title": "ANUSHKA BHOWMICK",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709825568/Members/qtzd3qwnkpksnl8orez5.jpg",
-      "pos": "DESIGNING CO-LEAD",
-      "linkedIn": "https://www.linkedin.com/in/anushkabhowmick/",
-      "github": "https://github.com/Anushka-Bhowmick"
+      "title": "TITAS GHOSH",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741808606/IMG-20241104-WA0024_-_59_TITAS_GHOSH_lnfkrp.jpg",
+      "pos": "PR Lead",
+      "linkedIn": "",
+      "github": ""
+    },
+    {
+      "title": "SHRIMANT SHAW",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741808843/IMG_20250303_102511_-_44_SHRIMANT_SHAW_imlxdi.jpg",
+      "pos": "Treasurer Lead",
+      "linkedIn": "",
+      "github": ""
+    },
+    
+    {
+      "title": "SANJANA DEY",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741809160/IMG-20250122-WA0030_-_40_SANJANA_DE_CSBS_fijays.jpg",
+      "pos": "Marketing Lead",
+      "linkedIn": "",
+      "github": ""
+    },
+    {
+      "title": "ANWESA PANJA",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741809496/IMG_20250303_124950_-_008_ANWESA_PANJA_zdpb7m.jpg",
+      "pos": "DESIGNING LEAD",
+      "linkedIn": "",
+      "github": ""
+    },
+    {
+      "title": "ADITYA GHOSH",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741809925/Aditya_new_-_11_ADITYA_GHOSH_i92158.jpg",
+      "pos": "Design Lead",
+      "linkedIn": "",
+      "github": ""
+    },
+    
+    {
+      "title": "SUMAN JAIN",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741810207/WhatsApp_Image_2025-01-30_at_17.10.15_-_SUMAN_NARESH_JAIN_r27w0z.jpg",
+      "pos": "TECH CO-LEAD",
+      "linkedIn": "",
+      "github": ""
+    },
+    {
+      "title": "DEBASMITA DEB",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741810561/IMG_20250303_121738_-_DEBASMITA_DEB_psxvtk.jpg",
+      "pos": "SOCIAL LEAD",
+      "linkedIn": "",
+      "github": ""
+    },
+    {
+      "title": "RAJDEEP SAHA",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741810687/SaveClip.App_401077656_1023560032256704_3797548364636720536_n_-_08_RAJDEEP_SAHA_hn3tgr.jpg",
+      "pos": "Tech Lead",
+      "linkedIn": "",
+      "github": ""
+    },
+    {
+      "title": "IPSITA NAYEK",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1744317751/WhatsApp_Image_2025-04-11_at_02.10.45_yk5cmh.jpg",
+      "pos": "Design Co-Lead",
+      "linkedIn": "",
+      "github": ""
     },
     {
       "title": "SWARNABHA BOSE",
@@ -107,46 +80,55 @@
       "github": "https://github.com/boseswarnabha"
     },
     {
-      "title": "SATADAL CHAKRAVARTY",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709826453/Members/apcpot0lvte7u4ad4ywb.jpg",
-      "pos": "VOLUNTEER CO-LEAD",
-      "linkedIn": "https://www.linkedin.com/in/satadal-chakravarty-555365255",
-      "github": "https://github.com/SatadalChakravarty"
-    },
-    {
-      "title": "DIPTANGSHU CHOWDHURY",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1714914526/Members/e68bc25e_dynmgf.jpg",
+      "title": "ASMI SAHA",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741811168/20250223_183904_-_19_Asmi_Saha_xvjlmm.jpg",
       "pos": "CONTENT CO-LEAD",
-      "linkedIn": "https://www.linkedin.com/in/diptangshu-chowdhury-20bb99235/",
+      "linkedIn": "",
       "github": ""
     },
     {
-      "title": "AKASH DAS",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709824554/Members/r8isysyktnyc7abuup6v.jpg",
-      "pos": "CAMERA & EDITING CO-LEAD",
-      "linkedIn": "https://www.linkedin.com/in/akash-das-385814211",
-      "github": ""
+      "title": "ARITRA ADAK",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820573/Members/pmg0iparmfuhz1socsmd.jpg",
+      "pos": "CAMERA & EDITING LEAD",
+      "linkedIn": "https://www.linkedin.com/in/aritra-adak-a55686275",
+      "github": "https://github.com/ari20045"
     },
     {
-      "title": "DEBADITYA SOM",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709826304/Members/puenpzi4rxqhdykmvere.jpg",
-      "pos": "TECH CO-LEAD",
-      "linkedIn": "https://www.linkedin.com/in/debaditya-som-877032262/",
-      "github": "https://github.com/Debaditya-Som"
-    },
-    {
-      "title": "AYON ROY",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709820573/Members/zelqv1nbzidxzqe7zkfp.webp",
+      "title": "SUDHANSHU KUMAR PRASAD",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741811623/DSC_7518_-_039_Sudhanshu_Kumar_Prasad_vhjxw0.jpg",
       "pos": "TREASURER LEAD",
-      "linkedIn": "https:/www.linkedin.com/in/ayon-roy-97b281220/",
-      "github": "https:/github.com/Ayon1308"
+      "linkedIn": "",
+      "github": ""
     },
     {
-      "title": "AYISHIK DAS",
-      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1709823206/Members/khftfrr7c2hkbn7wrk91.jpg",
-      "pos": "TREASURER CO-LEAD",
-      "linkedIn": "https://www.linkedin.com/in/ayishik-das-35a67a1a5",
-      "github": "https://github.com/AyishikD"
+      "title": "PAPRI MITRA",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741812120/IMG_20250301_234009_-_024_PAPRI_MITRA_voopeu.jpg",
+      "pos": "PR Co Lead",
+      "linkedIn": "",
+      "github": ""
+    },
+    {
+      "title": "ANIK MUKHERJEE",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741812025/JPEG_20240717_213440_1976070726723491797_-_03_ANIK_MUKHERJEE_le2k9l.jpg",
+      "pos": "CAMERA & EDITING CO-LEAD",
+      "linkedIn": "",
+      "github": ""
+    },
+
+
+    {
+      "title": "SUMIT CHATTERJEE",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741812131/IMG_20250301_214410_-_041_Sumit_Chatterjee_ntqoem.jpg",
+      "pos": "EVENT MANAGEMENT LEAD",
+      "linkedIn": "",
+      "github": ""
+    },
+    {
+      "title": "ANKUR MUKHERJEE",
+      "image": "https://res.cloudinary.com/dobf4epbw/image/upload/v1741812381/IMG_20250311_085231_-_005_ANKUR_MUKHERJEE_epdqhb.jpg",
+      "pos": "Content Lead",
+      "linkedIn": "",
+      "github": ""
     }
   ]
 }

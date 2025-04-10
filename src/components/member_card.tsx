@@ -1,4 +1,4 @@
-import { Avatar, Tooltip } from "@nextui-org/react";
+import { Avatar, Tooltip } from "@heroui/react";
 import {
   Modal,
   ModalContent,
@@ -7,7 +7,7 @@ import {
   useDisclosure,
   Image,
   AvatarIcon,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import Github from "../assets/github_icon.svg";
 import LinkedIn from "../assets/LinkedIn_icon.svg";
 import user from "../assets/user.png";

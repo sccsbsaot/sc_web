@@ -1,4 +1,4 @@
-import { Card, CardBody, CardHeader , Image } from "@nextui-org/react";
+import { Card, CardBody, CardHeader , Image } from "@heroui/react";
 import type { FeatureItem } from "~/types";
 
 export default function NextCard({ title, description, image }: FeatureItem) {
