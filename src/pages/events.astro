@@ -4,6 +4,7 @@ import Footer from "~/components/footer.astro";
 import Header from "~/components/header.astro";
 import ContentSection from "~/components/content-section.astro";
 import Event from "~/components/event.astro";
+import EventModal from "~/components/modal";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
@@ -69,7 +70,11 @@ const description =
   >
   <Header title="members" />
     <div class="space-y-24 px-8 py-32">
-      <ContentSection title="Events"id="events" />
+      <ContentSection title="Uxopia 2.0" id="Uxopia 2.0" />
+      <div class="flex justify-center">
+        <EventModal client:load />
+      </div>
+      <ContentSection title="Events" id="events" />
       <Event />
       <Footer />
   </body>
