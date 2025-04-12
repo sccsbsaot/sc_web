@@ -83,19 +83,19 @@ export default function App() {
               <ModalBody>
                 <div className="space-y-4">
                   <div
-                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-pointer transition-colors"
-                    onClick={handleSlot1Click}
+                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-not-allowed opacity-50"
+                    /*onClick={handleSlot1Click}*/
                   >
                     <h4 className="font-semibold">Slot 1</h4>
                     <p>Morning Session: 10:00 AM - 11:30 AM</p>
+                    <p className="text-red-500">Not Allowed</p>
                   </div>
                   <div
-                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-not-allowed opacity-50"
-                    /*onClick={handleSlot2Click}*/
+                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-pointer transition-colors"
+                    onClick={handleSlot2Click}
                   >
                     <h4 className="font-semibold">Slot 2</h4>
                     <p>Afternoon Session: 12:30 PM - 2:00 PM</p>
-                    <p className="text-red-500">Not Allowed</p>
                   </div>
                   <div
                     className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-not-allowed opacity-50"
@@ -275,28 +275,35 @@ export default function App() {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">The UX Awakening</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">"Drive Me There" — A Digital Showroom Experience
+              </ModalHeader>
               <ModalBody>
                 <div className="space-y-4 text-sm">
-                  <p className="font-semibold">Your town has amazing things — tasty local food, hidden tourist spots, and interesting stories.
-                    But most people don’t know about them.</p>
+                  <p className="font-semibold">Imagine walking into a car showroom — shiny vehicles, helpful staff, smooth experience.
+ Now imagine if that same feeling could happen on a screen.
+</p>
 
                   <p className="font-medium">The Problem:</p>
-                  <p>The tourism board is calling on visionary designers to create intuitive, bold, and human-centered interfaces that put hometown pride on a global stage.
+                  <p>But here’s the problem:
+ Most car dealership websites today are boring, confusing, or filled with too much information.
+ Buyers feel lost, can’t compare easily, and often don’t get the wow factor they feel in a real showroom.
+
                   </p>
 
-                  <p className="font-medium">Your Task:</p>
-                  <p> Design a website or app that helps tourists and locals explore your town better.
-                    It should show:
+                  <p className="font-medium">Your Challenge:
+                  </p>
+                  <p> Design a modern, easy-to-use, and attractive web page for a car dealership that lets customers:
                   </p>
                   <ul className="list-disc pl-5 space-y-1">
-                    <li>Local places to visit [Explore Page/Home page]</li>
-                    <li>Itinerary Builder Page</li>
-                    <li>Unique things about your town [Local Legends Page] etc..</li>
+                    <li>Landing page. [About showroom, brands etc…]</li>
+                    <li>View car features, photos, and prices clearly [Menu]</li>
+                    <li>Book a test drive or contact the dealer easily [Contact Us]</li>
                   </ul>
 
                   <p className="font-medium">Goal:</p>
-                  <p> Make it easy, fun, and attractive — something that makes people proud of their hometown and excited to explore more.</p>
+                  <p> Make buying a car feel exciting and smooth — even before stepping into the showroom.
+Think bold. Think clean. Think like someone buying their dream ride.
+</p>
 
                   <p className="font-medium text-purple-400">Extra Prize [BEST LOGO]:</p>
                   <p>Make a logo for your project - The best logo wins a bonus prize.</p>
@@ -337,24 +344,28 @@ export default function App() {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">The Campus Mystery Network</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">Hand in Hand – Help is Just Around the Corner</ModalHeader>
               <ModalBody>
                 <div className="space-y-4 text-sm">
-                  <p className="font-semibold">Students keep losing things on campus — phones, bags, wallets, and even ID cards.
-                    They ask around or post in random WhatsApp groups, but it doesn’t always work.
+                  <p className="font-semibold">Need help moving a couch? Looking for someone to teach your child math? Want a dog-walker in your area?
+ There are people nearby who can help — but finding them is harder than it should be.
+
                   </p>
 
                   <p className="font-medium">Your Task:</p>
-                  <p>Design a simple and smart platform where students can:
+                  <p> Design a simple and friendly webpage that connects people who need help with people who are ready to help, based on:
+
                   </p>
                   <ul className="list-disc pl-5 space-y-1">
-                    <li>Report lost or found items [Home Page]</li>
-                    <li>Add photos or descriptions. [Explore Items Page]</li>
-                    <li>Menu /User Dashboard / My Reports etc…</li>
+                    <li>Landing page a basic walk through over the purpose of the project, about , contact , team and simple user manual</li>
+                    <li>Type of help or need & types [Menu] (e.g., tutoring, pet care, errands, household tasks , etc)</li>
+                    <li>Interested candidates.</li>
                   </ul>
 
                   <p className="font-medium">Goal:</p>
-                  <p> Help students find lost items quickly and easily — all in one place.</p>
+                  <p>  Make a platform where your community can come together — where asking for help feels normal, and offering help feels rewarding.Think minimal, trustworthy, and easy-to-use, even for someone who’s not very tech-savvy.
+ Bonus idea: Add filters for urgency, reviews, or skill level!
+</p>
 
                   <p className="font-medium text-purple-400">Extra Prize [BEST LOGO]:</p>
                   <p>Make a logo for your project - The best logo wins a bonus prize.</p>
