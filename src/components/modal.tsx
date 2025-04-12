@@ -84,26 +84,26 @@ export default function App() {
                 <div className="space-y-4">
                   <div
                     className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-not-allowed opacity-50"
-                    /*onClick={handleSlot1Click}*/
+                  /*onClick={handleSlot1Click}*/
                   >
                     <h4 className="font-semibold">Slot 1</h4>
                     <p>Morning Session: 10:00 AM - 11:30 AM</p>
                     <p className="text-red-500">Not Allowed</p>
                   </div>
                   <div
-                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-pointer transition-colors"
-                    onClick={handleSlot2Click}
+                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-not-allowed opacity-50"
+                  /*onClick={handleSlot2Click}*/
                   >
                     <h4 className="font-semibold">Slot 2</h4>
                     <p>Afternoon Session: 12:30 PM - 2:00 PM</p>
+                    <p className="text-red-500">Not Allowed</p>
                   </div>
                   <div
-                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-not-allowed opacity-50"
-                    /*onClick={handleFinalClick}*/
+                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-pointer transition-colors"
+                    onClick={handleFinalClick}
                   >
                     <h4 className="font-semibold">Final Slot</h4>
                     <p>Afternoon Session: 2:30 PM - 4:30 PM</p>
-                    <p className="text-red-500">Not Allowed</p>
                   </div>
                 </div>
               </ModalBody>
@@ -280,13 +280,13 @@ export default function App() {
               <ModalBody>
                 <div className="space-y-4 text-sm">
                   <p className="font-semibold">Imagine walking into a car showroom — shiny vehicles, helpful staff, smooth experience.
- Now imagine if that same feeling could happen on a screen.
-</p>
+                    Now imagine if that same feeling could happen on a screen.
+                  </p>
 
                   <p className="font-medium">The Problem:</p>
                   <p>But here’s the problem:
- Most car dealership websites today are boring, confusing, or filled with too much information.
- Buyers feel lost, can’t compare easily, and often don’t get the wow factor they feel in a real showroom.
+                    Most car dealership websites today are boring, confusing, or filled with too much information.
+                    Buyers feel lost, can’t compare easily, and often don’t get the wow factor they feel in a real showroom.
 
                   </p>
 
@@ -302,8 +302,8 @@ export default function App() {
 
                   <p className="font-medium">Goal:</p>
                   <p> Make buying a car feel exciting and smooth — even before stepping into the showroom.
-Think bold. Think clean. Think like someone buying their dream ride.
-</p>
+                    Think bold. Think clean. Think like someone buying their dream ride.
+                  </p>
 
                   <p className="font-medium text-purple-400">Extra Prize [BEST LOGO]:</p>
                   <p>Make a logo for your project - The best logo wins a bonus prize.</p>
@@ -348,7 +348,7 @@ Think bold. Think clean. Think like someone buying their dream ride.
               <ModalBody>
                 <div className="space-y-4 text-sm">
                   <p className="font-semibold">Need help moving a couch? Looking for someone to teach your child math? Want a dog-walker in your area?
- There are people nearby who can help — but finding them is harder than it should be.
+                    There are people nearby who can help — but finding them is harder than it should be.
 
                   </p>
 
@@ -364,8 +364,8 @@ Think bold. Think clean. Think like someone buying their dream ride.
 
                   <p className="font-medium">Goal:</p>
                   <p>  Make a platform where your community can come together — where asking for help feels normal, and offering help feels rewarding.Think minimal, trustworthy, and easy-to-use, even for someone who’s not very tech-savvy.
- Bonus idea: Add filters for urgency, reviews, or skill level!
-</p>
+                    Bonus idea: Add filters for urgency, reviews, or skill level!
+                  </p>
 
                   <p className="font-medium text-purple-400">Extra Prize [BEST LOGO]:</p>
                   <p>Make a logo for your project - The best logo wins a bonus prize.</p>
@@ -408,18 +408,27 @@ Think bold. Think clean. Think like someone buying their dream ride.
               <ModalHeader className="flex flex-col gap-1">The Hidden Heroes of Your Street</ModalHeader>
               <ModalBody>
                 <div className="space-y-4 text-sm">
-                  <p className="font-semibold">Every street has its unsung heroes — the local shopkeeper who remembers everyone's name, the security guard who keeps watch all night, or the elderly neighbor who waters everyone's plants.</p>
+                  <p className="font-semibold">There are amazing people and shops in your area —
+                    Like the aunty who makes tasty homemade pickles,
+                    The uncle who fixes watches,
+                    And the small bookstore with cool old books.
+                    But here’s the problem:
+                    Most people don’t know about them — because they aren’t online.</p>
 
                   <p className="font-medium">Your Task:</p>
-                  <p>Create a digital storytelling platform that:</p>
+                  <p> Design a website (from a customer’s point of view) that helps people:</p>
                   <ul className="list-disc pl-5 space-y-1">
-                    <li>Showcases stories of local heroes</li>
-                    <li>Allows community members to nominate heroes</li>
-                    <li>Shares the impact they make on daily life</li>
+                    <li>See what they sell or offer [Menu, if possible a different page altogether]
+                    </li>
+                    <li>Visit or contact them easily  [payment methods, checkout options]</li>
+                    <li>Cart : [Add to cart functionality]</li>
                   </ul>
 
                   <p className="font-medium">Goal:</p>
-                  <p>Celebrate the everyday heroes who make our communities special and inspire others to recognize their contributions.</p>
+                  <p>Support your local heroes by helping more people find them through a simple and helpful  design.</p>
+
+                  <p className="font-medium">Creative Liberty: </p>
+                  <p>Add the product catalogue according to your own choices.</p>
 
                   <p className="font-medium text-purple-400">Extra Prize [BEST LOGO]:</p>
                   <p>Make a logo for your project - The best logo wins a bonus prize.</p>
