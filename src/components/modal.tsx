@@ -83,12 +83,11 @@ export default function App() {
               <ModalBody>
                 <div className="space-y-4">
                   <div
-                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-not-allowed opacity-50"
-                    /*onClick={handleSlot1Click}*/
+                    className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-pointer transition-colors"
+                    onClick={handleSlot1Click}
                   >
                     <h4 className="font-semibold">Slot 1</h4>
                     <p>Morning Session: 10:00 AM - 11:30 AM</p>
-                    <p className="text-red-500">Not Allowed</p>
                   </div>
                   <div
                     className="p-4 bg-[#292f46] rounded-lg hover:bg-[#353a52] cursor-not-allowed opacity-50"
